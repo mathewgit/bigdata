@@ -1,0 +1,20 @@
+int_var = 10
+float_var=18.25
+string_var='m'
+bool_var= True
+
+
+# Function in Python for Output
+print("Hello World")
+
+# How to check the datatype of any variable
+print(type(int_var))
+
+# How to do type casting in Python
+int_var = float(int_var +10)
+print(type(int_var))
+print(int_var)
+
+name=input("Enter Name")
+print("Username",name)
+
